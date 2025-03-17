@@ -24,6 +24,7 @@
 
     @media (max-width: 640px) {
         display: block;
+        margin-left: 0;
 
         &__infos {
             display: block;
@@ -35,6 +36,7 @@
     }
 
     @media (max-width: 1024px) {
+        margin-left: 0;
         &__infos {
             gap: 16px;
         }
